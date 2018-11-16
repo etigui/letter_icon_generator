@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetterIconGenerator", "LetterIconGenerator\LetterIconGenerator.csproj", "{47729C69-8D1C-44F8-BC73-A9C744FB0C5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47729C69-8D1C-44F8-BC73-A9C744FB0C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47729C69-8D1C-44F8-BC73-A9C744FB0C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47729C69-8D1C-44F8-BC73-A9C744FB0C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47729C69-8D1C-44F8-BC73-A9C744FB0C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00A65343-A97A-4334-9520-CB356EA4A457}
+	EndGlobalSection
+EndGlobal
