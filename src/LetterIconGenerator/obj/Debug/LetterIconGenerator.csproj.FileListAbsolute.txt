@@ -1,0 +1,10 @@
+C:\Users\Admin\Documents\GitHub\letter_icon_generator\src\LetterIconGenerator\obj\Debug\LetterIconGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\letter_icon_generator\src\LetterIconGenerator\obj\Debug\LetterIconGenerator.Form1.resources
+C:\Users\Admin\Documents\GitHub\letter_icon_generator\src\LetterIconGenerator\obj\Debug\LetterIconGenerator.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\letter_icon_generator\src\LetterIconGenerator\obj\Debug\LetterIconGenerator.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\GitHub\letter_icon_generator\src\LetterIconGenerator\obj\Debug\LetterIconGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\letter_icon_generator\src\LetterIconGenerator\bin\Debug\LetterIconGenerator.exe.config
+C:\Users\Admin\Documents\GitHub\letter_icon_generator\src\LetterIconGenerator\bin\Debug\LetterIconGenerator.exe
+C:\Users\Admin\Documents\GitHub\letter_icon_generator\src\LetterIconGenerator\bin\Debug\LetterIconGenerator.pdb
+C:\Users\Admin\Documents\GitHub\letter_icon_generator\src\LetterIconGenerator\obj\Debug\LetterIconGenerator.exe
+C:\Users\Admin\Documents\GitHub\letter_icon_generator\src\LetterIconGenerator\obj\Debug\LetterIconGenerator.pdb

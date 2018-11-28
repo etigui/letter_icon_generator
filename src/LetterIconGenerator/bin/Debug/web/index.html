@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="Pragma" content="no-cache">
+	<title>Get icon letter</title>
+</head>
+	<body>
+		<canvas id="user-icon" width="256" height="256" hidden ></canvas>
+		<div class="results"></div>
+		<img id="my_image" src="" />
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" charset="utf-8" >
+			(function($) {
+				var colours = ["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#34495e", "#16a085", "#27ae60", "#2980b9", "#8e44ad", "#2c3e50", "#f1c40f", "#e67e22", "#e74c3c", "#95a5a6", "#f39c12", "#d35400", "#c0392b", "#bdc3c7", "#7f8c8d"];
+				var name  = "DefaultName", initials = name.charAt(0).toUpperCase();
+				var charIndex = initials.charCodeAt(0) - 65,colourIndex = charIndex % 19;
+
+				var canvas = document.getElementById("user-icon");
+				var context = canvas.getContext("2d");
+
+				var canvasWidth = $(canvas).attr("width"),
+					canvasHeight = $(canvas).attr("height"),
+					canvasCssWidth = canvasWidth,
+					canvasCssHeight = canvasHeight;
+
+				if (window.devicePixelRatio) {
+					$(canvas).attr("width", canvasWidth * window.devicePixelRatio);
+					$(canvas).attr("height", canvasHeight * window.devicePixelRatio);
+					$(canvas).css("width", canvasCssWidth);
+					$(canvas).css("height", canvasCssHeight);
+					context.scale(window.devicePixelRatio, window.devicePixelRatio);
+				}
+
+				context.fillStyle = colours[colourIndex];
+				context.fillRect (0, 0, canvas.width, canvas.height);
+				context.font = "bold 192px Arial";
+				context.textAlign = "center";
+				context.fillStyle = "#FFF";
+				context.fillText(initials, canvasCssWidth / 2, canvasCssHeight / 1.3);
+				
+				var canvas = document.getElementById('user-icon');
+				var dataURL = canvas.toDataURL();
+				
+				$('#my_image').attr('src',dataURL);
+				
+				$('.results').html(dataURL);
+				console.log(dataURL);
+			}(jQuery));
+		</script>
+	</body>
+</html>
