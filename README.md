@@ -8,3 +8,7 @@ Every time I create a program in C# with Visual Studio, the Form always come wit
 - Gif (not recommended)
 
 <p align="middle" ><img src="/images/prog.png" alt="Renamer prog" width="500"></p>
+
+### Get exec
+
+
