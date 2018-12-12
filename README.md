@@ -9,6 +9,8 @@ Every time I create a program in C# with Visual Studio, the Form always come wit
 
 <p align="middle" ><img src="/images/prog.png" alt="Renamer prog" width="500"></p>
 
-### Get exec
+## Get exec
+
+[Renamer.exe](src/LetterIconGenerator/LetterIconGenerator/bin/Release/LetterIconGenerator.exe) (right click -> save link as... )
 
 
