@@ -7,4 +7,3 @@ C:\Users\Admin\Documents\GitHub\letter_icon_generator\src\LetterIconGenerator\Le
 C:\Users\Admin\Documents\GitHub\letter_icon_generator\src\LetterIconGenerator\LetterIconGenerator\obj\Release\LetterIconGenerator.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\GitHub\letter_icon_generator\src\LetterIconGenerator\LetterIconGenerator\obj\Release\LetterIconGenerator.exe
 C:\Users\Admin\Documents\GitHub\letter_icon_generator\src\LetterIconGenerator\LetterIconGenerator\obj\Release\LetterIconGenerator.pdb
-C:\Users\Admin\Documents\GitHub\letter_icon_generator\src\LetterIconGenerator\LetterIconGenerator\obj\Release\LetterIconGenerator.csprojResolveAssemblyReference.cache

@@ -163,6 +163,8 @@ namespace LetterIconGenerator {
                     // Save as icon
                     if (CBType.Text.EndsWith("n")) {
                         SaveIcon(SaveImage(letter, true), letter);
+                    } else {
+                        SaveImage(letter, false);
                     }
                 }
             }
